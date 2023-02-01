@@ -1,0 +1,21 @@
+:root{
+    --font1: 'Arial';
+}
+
+.header{
+    font-family: var(--font1);
+}
+
+body{
+    background-color: rgb(183, 183, 183);
+}
+
+.about h2{
+    font-family: var(--font1);
+}
+
+.footer{
+    font-family: var(--font1);
+    text-align: center;
+}
+

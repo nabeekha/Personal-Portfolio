@@ -6,12 +6,46 @@
     font-family: var(--font1);
 }
 
+.navigation{
+    background-color: rgb(222, 222, 222);
+    overflow: hidden;
+}
+
+.navigation-links{
+    font-family: var(--font1);
+}
+
+div ul ul{
+    display: inline;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    display: inline;
+    text-align: center;
+}
+
+.resume-highlights{
+
+}
+
+.profile-photo{ 
+    display: flex;
+    justify-content: center; /*This class does not seem to be doing anything*/
+}
+
 body{
-    background-color: rgb(183, 183, 183);
+    background-color: rgb(229, 229, 229);
 }
 
 .about h2{
     font-family: var(--font1);
+}
+
+.bio{ /*class selectors don't seem to be working properly*/
+    font-family: var(--font1);
+    text-align: center;
 }
 
 .footer{
@@ -19,3 +53,25 @@ body{
     text-align: center;
 }
 
+
+
+@media screen and (max-width: 992px) {
+    header {
+      background: #b1b1b1;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #c8c8c8;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #e1e1e1;
+    }
+  }
+  

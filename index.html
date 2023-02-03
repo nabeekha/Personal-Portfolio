@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
     <header class="header">
         <h1> Nabeel Khan Professional Portfolio</h1>
-
-        <nav>
-            <ul> </ul>
-        </nav>
-        
-
     </header>
 
+    <div class="navigation">
+        <ul class="navigation-links">
+            <ul><a href="#about">About Me</a></ul> <!--links do not seem to be working-->
+            <ul><a href="#resume-highlights">Resume Highlights</a></ul>
+            <ul><a href="#coding-work">Coding Work</a></ul>
+            <ul><a href="#contact-me">Contact Me</a></ul>
+
+        </ul>
+    </div>
+
     <section class="about">
-        <h2>Summary</h2>
+        <h2> About Me</h2>
+        <p class="bio">
+            <span>
+                I am a current Senior Product Manager at Amazon with
+                an expertise in designing and shipping a suite of software tools,
+                managing product strategy and roadmaps, and employing owner mentality
+                to influence business and technical teams to innovate on behalf of customers.
+            </span>
+            <br>
+            <span>
+                I have been responsible for the design and deployment of high-profile internal software
+                applications and am currently increasing my skills as a Full Stack developer by completing
+                a software bootcamp at Georgia Tech.
+            </span>
+            <br>
+            <span>
+                I studied engineering at the University of Michigan and currently live in the New York area.
+            </span>
+        </p>
+
+    </section>
+
+    <section class="profile-photo">
+        <img src="./assets/images/Portfolio-headshot.png">
+    </section>
+
+    <section id="resume-highlights" class="resume-highlights">
+        <!--For some reason the first id selector seems to work but the second one onward does not-->
+        <h2> Resume Highlights</h2>
+        <p>
+            Senior Product Manager, GESS Software Development 
+Amazon, May 2022 – Current
+Orchestrate the product strategy and lifecycle for org-wide software tools, leading end-to-end development and interfacing with end users and director-level leadership to drive business impact
+•	Leads a team of SDEs, DEs and PMs to facilitate software development lifecycle for 5 platforms, defining agile KPIs for each role and heading weekly, monthly and quarterly product planning efforts
+•	Oversaw the creation of product backlog and roadmap for a project management tool by using agile planning frameworks to prioritize features and align 5 teams around OKRs and release plan, maximizing functionality for 500+ end-users
+•	Creates whitepapers, business strategy proposals and SOPs for director and VP-level approval by working closely with key stakeholders across teams. Partnered with a Software Development Manager and Senior Data Engineer to define org-wide Software Development Release procedure based on industry standards
+•	Facilitated Information Security procedures for high-severity applications, using knowledge of AWS services to optimize architecture diagrams and frameworks, mitigating 250+ potential threats
+•	Designed internal reporting dashboard for project managers and directors by drafting Business Requirement Documents, creating wireframes and UI flow in Figma and outlining data flow with engineering teams
+
+
+        </p>
+
+
+    </section>
+
+    <section id="coding-work" class="coding-work">
+        <h2> Coding Work</h2>
+        <p>
+            I am currently undergoing a coding bootcamp at Georgia Tech and have learned HTML, CSS and JavaScript.
+            I have previous experience designing wireframes and utilizing AWS services to design systems.
+        </p>
+
+    </section>
+
+    <section id="contact-me" class="contact-me">
+        <h2> Contact Me</h2>
+        <p>
+            I can be reached by phone at (770) 354-5631 or by email at nykhan111@gmail.com.
+        </p>
+    </section>
 
     </section>
 

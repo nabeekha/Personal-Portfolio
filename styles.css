@@ -1,14 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-
-:root{
+/* root variable is creating a set of fonts and colors to be used throughout the website */
+:root{ 
     --font1: 'Arial';
 }
 
+/* following elements exist to add style to the header and navigation bars */
 .header{
     font-family: var(--font1);
     /* text-align: center; */
@@ -67,7 +62,7 @@ div ul ul{
     display: inline;
     text-align: center;
 }
-
+/* the following elements add stylistic pieces to text sections */
 .resume-highlights{
     text-align: center;
 }
@@ -114,13 +109,11 @@ body{
 .contact-me{
     text-align: center;
 }
-
+/* center and add fonts to footer elements */
 .footer{
     font-family: var(--font1);
     text-align: center;
 }
-
-
 
 @media screen and (max-width: 992px) {
     header {
@@ -128,16 +121,16 @@ body{
     }
   }
   
-  /* Large smartphones - navbar changes color */
+  /* header changes color for various size phones */
   @media screen and (max-width: 768px) {
-    nav {
+    header {
       background-color: #c8c8c8;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
+/* header changes color for various size phones */
   @media screen and (max-width: 576px) {
-    .sample-img {
+    header {
       background-color: #e1e1e1;
     }
   }

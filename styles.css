@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root{
     --font1: 'Arial';
 }
 
 .header{
     font-family: var(--font1);
+    text-align: center;
 }
 
 .navigation{
@@ -13,11 +21,32 @@
 
 .navigation-links{
     font-family: var(--font1);
+    display: flex;
+    justify-content: center;
 }
 
-div ul ul{
+/* div ul ul{
     display: inline;
+} */
+
+.website-photo{
+   /* max-height: 250px;  */
+   /* width: 20%; */
+   /* height: 20%; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    width: 80%;
 }
+
+.independent-photo {
+    flex: 1 0 auto;
+}
+
+.independent-website{
+    width: 60%;
+}
+
 
 .about{
     display: flex;
@@ -27,24 +56,49 @@ div ul ul{
 }
 
 .resume-highlights{
+    text-align: center;
+}
 
+.job-title{
+    font-weight: bold;
+}
+
+.resume-overview{
+    font-style: italic;
 }
 
 .profile-photo{ 
     display: flex;
-    justify-content: center; /*This class does not seem to be doing anything*/
+    justify-content: center; 
+}
+
+
+.coding-work{ /*these classes do not seem to be doing anything */
+    text-align: center;
+}
+
+/* organize this CSS, this coding-site is after this */
+.coding-site{ 
+    text-align: center;
 }
 
 body{
     background-color: rgb(229, 229, 229);
 }
 
+/*
 .about h2{
     font-family: var(--font1);
 }
+*/
+
 
 .bio{ /*class selectors don't seem to be working properly*/
-    font-family: var(--font1);
+   /* font-family: var(--font1); */
+    text-align: center;
+}
+
+.contact-me{
     text-align: center;
 }
 

@@ -63,22 +63,19 @@ SOFTWARE.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Features
 
-If your project has a lot of features, list them here.
+The featurees of this website include:
+a. Media Queries to resize various portions of the application based on the size of your screen
+b. Clickable photos that take you to other website links 
 
 ## How to Contribute
 
 There is no need to contribute to this application at this time. The application is a representation of my individual ability. Stylistic recommendations can always be made though :) 
 
-## Tests
+## Photos
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Below are several snapshots of the application:
+
+![Getting Started](/Personal-Portfolio/assets/images/portfolio-photo-1.png)
+![Getting Started](/Personal-Portfolio/assets/images/portfolio-photo-2.png)

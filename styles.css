@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 
 :root{
@@ -11,7 +11,9 @@
 
 .header{
     font-family: var(--font1);
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
 }
 
 .navigation{
@@ -25,9 +27,9 @@
     justify-content: center;
 }
 
-/* div ul ul{
+div ul ul{
     display: inline;
-} */
+}
 
 .website-photo{
    /* max-height: 250px;  */
@@ -43,8 +45,19 @@
     flex: 1 0 auto;
 }
 
+.website-photo-big{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    /* left: 150px; */
+    
+}
+
 .independent-website{
-    width: 60%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
 }
 
 

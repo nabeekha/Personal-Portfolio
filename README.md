@@ -23,6 +23,9 @@ To install this application, please utilize the following live deployment link:
 
 This is currently stored within the git repository "Personal-Portfolio" which can be accessed at the following link: https://github.com/nabeekha/Personal-Portfolio 
 
+The deployed application can be found at: 
+https://nabeekha.github.io/Personal-Portfolio/ 
+
 
 ## Usage
 

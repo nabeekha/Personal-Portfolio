@@ -3,6 +3,15 @@
     --font1: 'Arial';
 }
 
+p {
+    font-family: var(--font1);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
 /* following elements exist to add style to the header and navigation bars */
 .header{
     font-family: var(--font1);

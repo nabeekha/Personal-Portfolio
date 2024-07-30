@@ -51,7 +51,7 @@
         <h2> About Me</h2>
         <div class="bio-container">
             <img class="profile-photo" src="./assets/images/Portfolio-headshot.png">
-            <div class="bio">
+            <div class="bio-text">
                 <p>
                     I am currently a Sr. Technical Product Manager at Amazon with a focus in conducting user research
                     and designing user flows.
@@ -86,22 +86,17 @@
         <p>
             - Spearhead product roadmap strategy and life cycle management for an org-wide project management tool,
             enhancing content discovery and user engagement across 5 continents by partnering with directors, VPs and
-            sr.
-            leaders across 7+ Amazon orgs
+            sr.leaders across 7+ Amazon orgs
             - Developed and executed a Go-to-Market strategy for a critical new product, overseeing a team of 30+
-            engineers
-            and TPMs, prioritizing features based on customer data analysis and collaborating with partner stakeholder
-            teams
-            to forecast growth strategy
+            engineers and TPMs, prioritizing features based on customer data analysis and collaborating with partner stakeholder
+            teams to forecast growth strategy
             - Optimized API integrations and UI/UX for product interconnectivity by working with data engineering teams,
             saving $150K in development costs and streamlining end-user experience
             - Spearheading org-wide tool consolidation initiatives by working with internal business stakeholders to
-            define
-            end-user workflows and write product requirement documents and 3-year product plans
+            define end-user workflows and write product requirement documents and 3-year product plans
             - Defined critical product and business KPIs such as AWS IMR, user session length and bounce rate by working
             with development teams to implement AWS Pinpoint and Hotjar to improve understanding of customer behavior
-            for
-            the prioritization of new features
+            for the prioritization of new features
         </p>
 
 
@@ -112,35 +107,19 @@
         <p>
             I have graduated from Georgia Tech's Full Stack coding bootcamp. I am proficient in frontend technologies
             such as React and CSS, backend languages such as Node.js and Express, and database management systems such
-            as MongoDB and MySQL.
+            as MongoDB and MySQL. Additionally, I work with a number of startups to help them with their product and design decisions.
         </p>
-    </section>
-
-    <section class="coding-site">
         <p>
-            Below is a snapshot of a group project that I built as a part of the Georgia Tech Bootcamp as well as
-            additional individual websites I have built.
+            Please click the links below to see several examples of my project work.
         </p>
 
-        <div class="website-photo">
-            <span>
-
-                <br>
-
-                <!-- the following applications hav -->
-                <!-- <a href="https://invmanagement.herokuapp.com/">
-                    <img class="website-photo-big" src="./assets/images/project-2-photo.png"></a> -->
-
-                <br>
-
-                <!-- <a href="https://mintchip2-dc87cf2e699c.herokuapp.com/">
-                    <img class="website-photo-big" src="./assets/images/MentChip App.png"></a> -->
-
-                <br>
-        </div>
-
-
+        <button type="button" id="LinkedIn" class="btn btn-outline-primary">LinkedIn</button>
+        <button type="button" id="YouTube" class="btn btn-outline-secondary">YouTube</button>
+        <button type="button" id="Github" class="btn btn-outline-success">GitHub</button>
+        <button type="button" id="Figma" class="btn btn-outline-success">Design Portfolio</button>
     </section>
+    <!-- add additional examples of project work below -->
+
 
     <section id="contact-me" class="contact-me">
         <h2> Contact Me</h2>
@@ -148,15 +127,26 @@
             I can be reached by phone at (770) 354-5631 or by email at nykhan111@gmail.com.
         </p>
 
-        <button type="button" class="btn btn-outline-primary">LinkedIn</button>
-        <button type="button" class="btn btn-outline-secondary">YouTube</button>
-        <button type="button" class="btn btn-outline-success">Success</button>
-        <button type="button" class="btn btn-outline-danger">Danger</button>
-        <button type="button" class="btn btn-outline-warning">Warning</button>
-        <button type="button" class="btn btn-outline-info">Info</button>
-        <button type="button" class="btn btn-outline-light">Light</button>
-        <button type="button" class="btn btn-outline-dark">Dark</button>
     </section>
+
+    <!-- Javascript functions that enable the links to be clickable -->
+    <script>
+        document.getElementById("LinkedIn").addEventListener("click", function () {
+            window.open("https://www.linkedin.com/in/nabeel-y-khan/");
+        });
+
+        document.getElementById("YouTube").addEventListener("click", function () {
+            window.open("https://www.youtube.com/@nabeelykhan/videos");
+        });
+
+        document.getElementById("Github").addEventListener("click", function () {
+            window.open("https://github.com/nabeekha/");
+        });
+
+        document.getElementById("Figma").addEventListener("click", function () {
+            window.open("https://www.figma.com/design/Ccr4gvtUV2G9r0hGD4HwaW/PerfectProd-Customer-Design-Portfolio?node-id=289-2087&t=sVGdMcC77mOTLweP-0");
+        });
+    </script>
 
     </section>
 

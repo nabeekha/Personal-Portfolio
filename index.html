@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
+    <!-- Bootstrap CSS implementation -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,41 +20,57 @@
         <h1> Nabeel Khan Professional Portfolio</h1>
     </header>
 
-    <div class="navigation">
-        <ul class="navigation-links">
-            <ul><a href="#about">About Me</a></ul> 
-            <ul><a href="#resume-highlights">Resume Highlights</a></ul>
-            <ul><a href="#coding-work">Coding Work</a></ul>
-            <ul><a href="#contact-me">Contact Me</a></ul>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
 
-        </ul>
-    </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume-highlights">Resume Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project-work">Project Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <section class="about">
         <h2> About Me</h2>
-        <p class="bio">
-            <span>
-                I am currently a Sr. Technical Product Manager at Amazon with an expertise in designing
-                and shipping a suite of software tools, managing product strategy and roadmaps, and employing
-                owner mentality to influence business and technical teams to innovate on behalf of customers.
-            </span>
-            <br>
-            <span>
-                I run a team of 3 software engineers and one TPM for the design and deployment of high-profile
-                internal software applications. On the side I write a blog about product management and am
-                proficient as a Full Stack MERN developer.
-            </span>
-            <br>
-            <span>
-                I studied engineering at the University of Michigan and currently split time between the New York and
-                Atlanta areas.
-            </span>
-        </p>
+        <div class="bio-container">
+            <img class="profile-photo" src="./assets/images/Portfolio-headshot.png">
+            <div class="bio">
+                <p>
+                    I am currently a Sr. Technical Product Manager at Amazon with a focus in conducting user research
+                    and designing user flows.
+                    I manage a suite of software tools, manage product strategy and roadmaps, and employ owner mentality
+                    to influence business and technical teams to innovate on behalf of customers.
+                </p>
+                <p>
+                    I have previously managed a team of engineers and TPMs and currently manage a product manager and
+                    mentor a group of MBA interns. I have a strong background in user research and design, working
+                    directly with engineering teams to develop and launch new products.
+                </p>
+                <p>
+                    I studied engineering at the University of Michigan and currently split time between the New York
+                    and
+                    Atlanta areas.
+                </p>
+            </div>
+        </div>
 
-    </section>
-
-    <section class="profile-photo">
-        <img src="./assets/images/Portfolio-headshot.png">
     </section>
 
     <section id="resume-highlights" class="resume-highlights">
@@ -56,30 +78,37 @@
         <p class="job-title">
             Sr. Manager, Technical Product Management
             Amazon.com, June 2023 – Current
+        </p>
         <p class="resume-overview">
             Lead a dynamic team of software engineers and TPMs in the development and oversight of three key tools,
             significantly influencing the operational efficiency and strategic direction of a VP-level organization.
         </p>
-        - Spearhead product roadmap strategy and life cycle management for an org-wide project management tool,
-        enhancing content discovery and user engagement across 5 continents by partnering with directors, VPs and sr.
-        leaders across 7+ Amazon orgs
-        - Developed and executed a Go-to-Market strategy for a critical new product, overseeing a team of 30+ engineers
-        and TPMs, prioritizing features based on customer data analysis and collaborating with partner stakeholder teams
-        to forecast growth strategy
-        - Optimized API integrations and UI/UX for product interconnectivity by working with data engineering teams,
-        saving $150K in development costs and streamlining end-user experience
-        - Spearheading org-wide tool consolidation initiatives by working with internal business stakeholders to define
-        end-user workflows and write product requirement documents and 3-year product plans
-        - Defined critical product and business KPIs such as AWS IMR, user session length and bounce rate by working
-        with development teams to implement AWS Pinpoint and Hotjar to improve understanding of customer behavior for
-        the prioritization of new features
+        <p>
+            - Spearhead product roadmap strategy and life cycle management for an org-wide project management tool,
+            enhancing content discovery and user engagement across 5 continents by partnering with directors, VPs and
+            sr.
+            leaders across 7+ Amazon orgs
+            - Developed and executed a Go-to-Market strategy for a critical new product, overseeing a team of 30+
+            engineers
+            and TPMs, prioritizing features based on customer data analysis and collaborating with partner stakeholder
+            teams
+            to forecast growth strategy
+            - Optimized API integrations and UI/UX for product interconnectivity by working with data engineering teams,
+            saving $150K in development costs and streamlining end-user experience
+            - Spearheading org-wide tool consolidation initiatives by working with internal business stakeholders to
+            define
+            end-user workflows and write product requirement documents and 3-year product plans
+            - Defined critical product and business KPIs such as AWS IMR, user session length and bounce rate by working
+            with development teams to implement AWS Pinpoint and Hotjar to improve understanding of customer behavior
+            for
+            the prioritization of new features
         </p>
 
 
     </section>
 
-    <section id="coding-work" class="coding-work">
-        <h2> Coding Work</h2>
+    <section id="project-work" class="project-work">
+        <h2>Project Work</h2>
         <p>
             I have graduated from Georgia Tech's Full Stack coding bootcamp. I am proficient in frontend technologies
             such as React and CSS, backend languages such as Node.js and Express, and database management systems such
@@ -95,8 +124,6 @@
 
         <div class="website-photo">
             <span>
-                <a href="https://gabrielarec.github.io/FitMix/">
-                    <img class="website-photo-big" src="./assets/images/Project-1-Photo.png"></a>
 
                 <br>
 
@@ -110,7 +137,7 @@
                     <img class="website-photo-big" src="./assets/images/MentChip App.png"></a> -->
 
                 <br>
-        </div> 
+        </div>
 
 
     </section>
@@ -120,6 +147,15 @@
         <p>
             I can be reached by phone at (770) 354-5631 or by email at nykhan111@gmail.com.
         </p>
+
+        <button type="button" class="btn btn-outline-primary">LinkedIn</button>
+        <button type="button" class="btn btn-outline-secondary">YouTube</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
     </section>
 
     </section>

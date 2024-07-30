@@ -1,130 +1,34 @@
-/* root variable is creating a set of fonts and colors to be used throughout the website */
-:root{ 
-    --font1: 'Arial';
+:root {
+    --main-background-color: #268fff;
+    --header-text: 'Roboto', 'sans-serif';
 }
+
+h1 {
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.bio {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.profile-photo {
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: auto;
+}
+
 
 p {
-    font-family: var(--font1);
-    justify-content: center;
-}
-
-a {
-    display: flex;
-    justify-content: center;
-}
-
-/* following elements exist to add style to the header and navigation bars */
-.header{
-    font-family: var(--font1);
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-}
-
-.navigation{
-    background-color: rgb(222, 222, 222);
-    overflow: hidden;
-}
-
-.navigation-links{
-    font-family: var(--font1);
-    display: flex;
-    justify-content: center;
-}
-
-div ul ul{
-    display: inline;
-}
-
-.website-photo{
-   max-height: 250px;  
-   width: 20%;
-    height: 20%; 
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-    width: 80%;
-}
-
-.independent-photo {
-    flex: 1 0 auto;
-}
-
-.website-photo-big {
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    /* left: 150px; */
-} 
- 
-
-.independent-website{
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    display: inline-block;
-}
-
-
-.about{
-    display: flex;
-    justify-content: center;
-    display: inline;
     text-align: center;
-}
-/* the following elements add stylistic pieces to text sections */
-.resume-highlights{
-    text-align: center;
-    font-family: var(--font1);
-}
-
-.job-title{
-    font-weight: bold;
-}
-
-.resume-overview{
-    font-style: italic;
-}
-
-.profile-photo{ 
-    display: flex;
-    justify-content: center; 
-}
-
-
-.coding-work{ /*these classes do not seem to be doing anything */
-    text-align: center;
-}
-
-/* organize this CSS, this coding-site is after this */
-.coding-site{ 
-    text-align: center;
-}
-
-body{
-    background-color: rgb(229, 229, 229);
-}
-
-/*
-.about h2{
-    font-family: var(--font1);
-}
-*/
-
-
-.bio{ /*class selectors don't seem to be working properly*/
-   /* font-family: var(--font1); */
-    text-align: center;
-}
-
-.contact-me{
-    text-align: center;
-    margin-top: 100px;
-}
-/* center and add fonts to footer elements */
-.footer{
-    font-family: var(--font1);
-    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 @media screen and (max-width: 992px) {
